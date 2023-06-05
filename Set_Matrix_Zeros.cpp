@@ -34,7 +34,7 @@ void setZeros(vector<vector<int>> &matrix)
 	}
   
 //this solution can be further optimized 
-//this is using t.c=O(r*c) s.c=o(r+c) unordered_map
+//this is using t.c=O(r*c) s.c=o(r+c) unordered_set
 //optimized approach
 //1>.check each 1 row and column and mark them using variable
 //2>.iterate through row 1 and column 1 and if there is matrix[r][c]==0 we can do one thing matrix[r][0]=0 and matrix[0][c]=0 
