@@ -21,11 +21,10 @@ struct node{
 // struct node*root=new node();
 
 class Trie {
-
+struct node* root;
 public:
 
     /** Initialize your data structure here. */
-    struct node* root;
     Trie() {
         root = new node();
     }
